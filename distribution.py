@@ -40,4 +40,4 @@ import string
 string.ascii_lowercase
 letters = input("Please enter a string of text (the bigger the better) ")
 b = (letters.split())
-print(b.sort())
+c= (b.sort())
