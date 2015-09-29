@@ -43,4 +43,8 @@ l = input("Please enter a string of text (the bigger the better) ")
 counts = []
 for i in list(a):
     counts.append(l.count(i))
-print(counts)
+print(list(zip(counts,a)))
+
+
+
+
