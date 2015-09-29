@@ -43,3 +43,4 @@ l = input("Please enter a string of text (the bigger the better) ")
 b = (a.split())
 for i in b:
     l.count(i)
+print(i)
