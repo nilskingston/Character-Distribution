@@ -40,7 +40,7 @@ import string
 a = string.ascii_lowercase
 l = input("Please enter a string of text (the bigger the better) ")
 
-b = (a.split())
-for i in b:
-    l.count(i)
-print(i)
+counts = []
+for i in list(a):
+    counts.append(l.count(i))
+print(counts)
