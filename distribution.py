@@ -37,7 +37,9 @@ Notice about this example:
 * Letters that do not occur in the text are not listed in the output at all.
 """
 import string
-string.ascii_lowercase
-letters = input("Please enter a string of text (the bigger the better) ")
-b = (letters.split())
-c= (b.sort())
+a = string.ascii_lowercase
+l = input("Please enter a string of text (the bigger the better) ")
+
+b = (a.split())
+for i in b:
+    l.count(i)
