@@ -45,6 +45,7 @@ for i in list(a):
     counts.append(l.count(i))
 zipper = (list(zip(counts,a)))
 
-
+for h in zipper:
+    print(
 
 
