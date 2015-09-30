@@ -44,8 +44,9 @@ counts = []
 for i in list(a):
     counts.append(l.count(i))
 zipper = (list(zip(counts,a)))
-
+sortedzip = zipper.sort()
 for h in zipper:
-    print(
+    if h[0]!=0:
+        print(h[0]*h[1])
 
 
