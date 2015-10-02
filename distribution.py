@@ -39,9 +39,9 @@ Notice about this example:
 import string
 a = string.ascii_lowercase
 l = input("Please enter a string of text (the bigger the better): ")
+a.lower
 print('The distribution of characters in "' + l + '" is: ')
 counts = []
-l.lower
 for i in list(a):
     counts.append(l.count(i))
 zipper = (list(zip(counts,a)))
