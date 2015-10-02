@@ -44,7 +44,7 @@ counts = []
 for i in list(a):
     counts.append(l.count(i))
 zipper = (list(zip(counts,a)))
-zipper.sort(lambda f: -f[0], f[1])
+zipper.sort(key = lambda f: (-f[0], f[1]))
 for h in zipper:
     if h[0]!=0:
         print(h[0]*h[1])
