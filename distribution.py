@@ -1,7 +1,7 @@
 """
 distribution.py
 Author: Nils Kingston
-Credit: <list sources used, if any>
+Credit: Roger
 
 Assignment:
 
@@ -44,7 +44,7 @@ counts = []
 for i in list(a):
     counts.append(l.count(i))
 zipper = (list(zip(counts,a)))
-zipper.sort(reverse = False)  
+zipper.sort(x = lambda.f)  
 for h in zipper:
     if h[0]!=0:
         print(h[0]*h[1])
