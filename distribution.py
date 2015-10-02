@@ -38,7 +38,7 @@ Notice about this example:
 """
 import string
 a = string.ascii_lowercase
-l = input("Please enter a string of text (the bigger the better) ")
+l = input("Please enter a string of text (the bigger the better): ")
 print('The distribution of characters in "' + l + '" is: ')
 counts = []
 for i in list(a):
