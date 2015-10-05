@@ -39,11 +39,11 @@ Notice about this example:
 import string
 a = string.ascii_lowercase
 l = input("Please enter a string of text (the bigger the better): ")
-c =a.lower
 print('The distribution of characters in "' + l + '" is: ')
 counts = []
+c = l.lower()
 for i in list(a):
-    counts.append(l.count(i))
+    counts.append(c.count(i))
 zipper = (list(zip(counts,a)))
 zipper.sort(key = lambda f: (-f[0], f[1]))
 for h in zipper:
